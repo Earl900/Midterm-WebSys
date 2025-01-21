@@ -1,0 +1,126 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    background-color: #000;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/* Background */
+.gif-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.profile-box {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 450px;
+    color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.profile-box h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #14ff72;
+}
+
+/* Form Groups */
+.profile-details {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #14ff72;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background: #222;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #14ff72;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button,
+.button-link {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    text-align: center;
+    text-decoration: none;
+}
+
+button {
+    background: #14ff72;
+    color: #000;
+}
+
+button:hover {
+    background: #00e600;
+    transform: scale(1.05);
+}
+
+.button-link {
+    background: #444;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background: #666;
+}

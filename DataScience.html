@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indoor Farming</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="DataScienceStyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Home.html" class="active">Home</a>
+            <a href="KeyFeatures.html">Key Features</a>
+            <a href="DataScience.html">Data Science</a>
+            <a href="ProfileUser.html">User Profile</a>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="list">
+            <!-- Slide 1 -->
+            <div class="item">
+                <img src="DataScienceBg.png" alt="DataScience">
+                <div class="content">
+                    <div class="title">INTRODUCTION AND</div>
+                    <div class="type">OBJECTIVES</div>
+                    <div class="description">
+                        <h3>Introduction</h3>
+                        <p>
+                            Data science and AI revolutionize indoor farming by automating tasks, enhancing care, 
+                            and optimizing plant growth. This project aims to develop an AI system that identifies plant species, 
+                            monitors health, and provides tailored care. Using camera-based detection and AI, the system ensures 
+                            plants thrive in their ideal environments, reducing manual labor and errors.
+                        </p>
+                        <h3>Objectives</h3>
+                        <ul>
+                            <li><strong>Automate Plant Care:</strong> Detect species, assess health, and recommend actions.</li>
+                            <li><strong>Monitor Plant Health:</strong> Analyze growth, coloration, and structure in real-time.</li>
+                            <li><strong>Pest and Disease Detection:</strong> Identify issues early using image analysis.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="item">
+                <img src="DataSci1.png" alt="Data Model">
+                <div class="content">
+                    <div class="title"> DATA AND MODEL </div>
+                    <div class="type">DEVELOPMENT</div>
+                    <div class="description">
+                        <h3>Collection</h3>
+                        <p>
+                            High-resolution images capturing growth patterns, pests, and diseases; environmental data like humidity and temperature.
+                        </p>
+                        <h3>Cleaning</h3>
+                        <p>
+                            Removing irrelevant data, structuring datasets, and selecting key features like leaf health and pest presence.
+                        </p>
+                        <h3>Visualization</h3>
+                        <p>
+                            Heatmaps, growth graphs, and actionable insights to guide operators, Model Building
+                        </p>
+                        <h3>Plant Identification ,Health Assessment, and Action Recommendation</h3>
+                        <p>
+                            Recognizes species based on characteristics, Detects stress, diseases, and pests, Suggests care actions (e.g., pest control, watering, lighting).
+                            Evaluation: Performance metrics include precision, recall, and F1 scores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="item">
+                <img src="DataSci2.png" alt="Deployment">
+                <div class="content">
+                    <div class="title">DEPLOYMENT, TECHNOLOGY, AND CONCLUSION</div>
+                    <div class="type"> DEPLOYENT AND MONITORING</div>
+                    <div class="description">
+                        <p>
+                            Real-time monitoring with cameras for plant health.</p>
+                            <p> Iterative testing and retraining to improve accuracy. </p>
+                            <p> Scalability for larger setups and diverse plant species.</p>
+                                <p> Technologies Used
+                        </p>
+                        <li><strong>Python: </strong> Core programming language.</li>
+                            <li><strong>PyTorch:</strong> For computer vision and deep learning.</li>
+                                <li><strong>Kafka:</strong> Manages real-time and historical data streams.</li>
+                                    <li><strong>AWS: </strong>Cloud infrastructure for scalability and data handling.</li>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="item">
+                <img src="DataSsci3.png" alt="DataSsci3">
+                <div class="content">
+                    <div class="title">INDOOR FARMING AI</div>
+                    <div class="type">CONCLUSION</div>
+                    <div class="description">
+                        <p>
+                            The AI-powered indoor farming system is a transformative leap in agricultural technology, offering a sustainable and efficient approach to modern farming. By utilizing advanced tools like PyTorch for health assessment, Kafka for real-time data processing, and AWS for scalable infrastructure, it automates plant care with precision. Its features—ranging from pest detection and health scanning to harvest readiness alerts—address critical farming challenges, enhancing crop quality and yield while reducing manual labor and human error. With its ability to adapt and scale, this technology not only optimizes current farming practices but also lays the foundation for future innovations, ensuring food security and sustainability in a rapidly changing world. 
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <div class="item"><img src="DataScienceBg.png" alt="DataScience"></div>
+            <div class="item"><img src="DataSci1.png" alt="DataSci1"></div>
+            <div class="item"><img src="DataSci2.png" alt="DataSci2"></div>
+            <div class="item"><img src="DataSsci3.png" alt="DataSsci3"></div>
+        </div>
+
+        <div class="nextPrevArrows">
+            <button class="prev">&lt;</button>
+            <button class="next">&gt;</button>
+        </div>
+    </div>
+
+    <script src="Slider.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
